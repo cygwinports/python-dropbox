@@ -1,0 +1,15 @@
+inherit python-distutils
+
+NAME="python-dropbox"
+VERSION=3.22
+RELEASE=1
+CATEGORY="Python"
+SUMMARY="Official Dropbox REST API for Python"
+DESCRIPTION=
+
+PATCH_URI="
+	http://pkgs.fedoraproject.org/cgit/python-dropbox.git/plain/dropbox-setuptools.patch
+	3.22-unbundled-deps.patch
+"
+
+ARCH=noarch
