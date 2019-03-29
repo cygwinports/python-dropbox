@@ -1,17 +1,14 @@
 inherit python-wheel
 
 NAME="python-dropbox"
-VERSION=6.5.0
+VERSION=9.3.0
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Official Dropbox REST API for Python"
 DESCRIPTION=
 
 PATCH_URI="
-	http://pkgs.fedoraproject.org/cgit/python-dropbox.git/plain/dropbox-setuptools.patch
+	https://src.fedoraproject.org/cgit/rpms/python-dropbox.git/plain/dropbox-setuptools.patch
 "
 
 ARCH=noarch
-
-python2_dropbox_REQUIRES="python2-urllib3"
-python3_dropbox_REQUIRES="python3-urllib3"
